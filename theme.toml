@@ -1,21 +1,51 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "passerine"
+name = "Passerine"
 license = "MIT"
 licenselink = "https://github.com/sky-larke/passerine/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = ["blog", "minimal", "portfolio", "clean"]
-features = []
-min_version = "0.41.0"
+description = "A personal port of PaperMod"
+homepage = "https://sky-larke/passerine/"
+tags = [
+  "responsive",
+  "simple",
+  "clean",
+  "light",
+  "dark",
+  "blog",
+  "minimalist",
+  "highlight.js",
+  "search"
+]
+features = [
+  "responsive",
+  "single-column",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "opengraph",
+  "highlight.js",
+  "favicon",
+  "archive",
+  "share-icons",
+  "cover",
+  "multilingual",
+  "social-icons",
+  "minified-assets",
+  "theme-toggle",
+  "menu-location-indicator",
+  "scroll-to-top",
+  "search"
+]
+min_version = "0.83.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Erin Park"
+  homepage = "https://github.com/sky-larke"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "PaperMod"
+  name = "Aditya Telange"
+  homepage = "https://github.com/adityatelange/"
+  repo = "https://github.com/adityatelange/hugo-PaperMod/"
